@@ -1,0 +1,48 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# ChromaDB and vector data
+chroma_db/
+chroma_data/
+chroma_vanloon/
+vector_store/
+
+# Logs
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Temporary files
+tmp/
+*.out
+*.err
+
+# Local vector databases
+vectorstore/
+artifacts/
+
+# Local datasets - review before committing
+data/
+
+# Local runtime files
+*.pid

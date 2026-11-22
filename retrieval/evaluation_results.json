@@ -1,0 +1,2319 @@
+{
+  "metrics": {
+    "recall_at_5": null,
+    "mrr": null,
+    "judgments_supplied": false
+  },
+  "chunk_quality": {
+    "total": 1555,
+    "short_under_100": 145,
+    "short_ids": [
+      "charaka_vanloon_volume1_dev-p1-c1-83e9c5bd9d",
+      "charaka_vanloon_volume1_dev-p4-c1-4b227777d4",
+      "charaka_vanloon_volume1_dev-p6-c1-e7f6c01177",
+      "charaka_vanloon_volume1_dev-p7-c1-503dbd0c30",
+      "charaka_vanloon_volume1_dev-p9-c1-e6c9253c65",
+      "charaka_vanloon_volume1_dev-p26-c1-5f9c4ab08c",
+      "charaka_vanloon_volume1_dev-p27-c1-670671cd97",
+      "charaka_vanloon_volume1_dev-p28-c1-59e19706d5",
+      "charaka_vanloon_volume1_dev-p59-c1-3e1e967e9b",
+      "charaka_vanloon_volume1_dev-p61-c1-d029fa3a95",
+      "charaka_vanloon_volume1_dev-p66-c1-3ada92f28b",
+      "charaka_vanloon_volume1_dev-p69-c1-c75cb66ae2",
+      "charaka_vanloon_volume1_dev-p87-c1-bdd2d3af3a",
+      "charaka_vanloon_volume1_dev-p90-c1-151196c18f",
+      "charaka_vanloon_volume1_dev-p91-c1-1da51b8d8f",
+      "charaka_vanloon_volume1_dev-p95-c1-ad48ff9941",
+      "charaka_vanloon_volume1_dev-p99-c1-d66f73e7cb",
+      "charaka_vanloon_volume1_dev-p102-c1-8d1ca06c8a",
+      "charaka_vanloon_volume1_dev-p104-c1-5ef6fdf325",
+      "charaka_vanloon_volume1_dev-p107-c1-3346f2bbf6",
+      "charaka_vanloon_volume1_dev-p112-c1-7d3db6be0a",
+      "charaka_vanloon_volume1_dev-p113-c1-6c658ee83f",
+      "charaka_vanloon_volume1_dev-p117-c1-2ac878b0e2",
+      "charaka_vanloon_volume1_dev-p120-c1-5d1e85f414",
+      "charaka_vanloon_volume1_dev-p121-c1-89aa1e5800",
+      "charaka_vanloon_volume1_dev-p122-c1-1be0034108",
+      "charaka_vanloon_volume1_dev-p124-c1-6affdae3b3",
+      "charaka_vanloon_volume1_dev-p126-c1-65a699905c",
+      "charaka_vanloon_volume1_dev-p128-c1-2747b7c718",
+      "charaka_vanloon_volume1_dev-p135-c1-13671077b6",
+      "charaka_vanloon_volume1_dev-p146-c1-0a5b046d07",
+      "charaka_vanloon_volume1_dev-p153-c1-620c9c3321",
+      "charaka_vanloon_volume1_dev-p154-c1-1d0ebea552",
+      "charaka_vanloon_volume1_dev-p157-c1-c75de23d89",
+      "charaka_vanloon_volume1_dev-p160-c1-ad7b3c5098",
+      "charaka_vanloon_volume1_dev-p161-c1-bb668ca955",
+      "charaka_vanloon_volume1_dev-p163-c1-3d3286f7cd",
+      "charaka_vanloon_volume1_dev-p165-c1-bc52dd6342",
+      "charaka_vanloon_volume1_dev-p169-c1-f57e5cb1f4",
+      "charaka_vanloon_volume1_dev-p175-c1-dac53c17c2",
+      "charaka_vanloon_volume1_dev-p177-c1-90a93436d3",
+      "charaka_vanloon_volume1_dev-p179-c1-d58cebe70f",
+      "charaka_vanloon_volume1_dev-p180-c1-7b69759630",
+      "charaka_vanloon_volume1_dev-p184-c1-52f11620e3",
+      "charaka_vanloon_volume1_dev-p185-c1-61a229bae1",
+      "charaka_vanloon_volume1_dev-p190-c1-2397346b45",
+      "charaka_vanloon_volume1_dev-p191-c1-70260742c2",
+      "charaka_vanloon_volume1_dev-p192-c1-eb3be230bb",
+      "charaka_vanloon_volume1_dev-p193-c1-10292cd260",
+      "charaka_vanloon_volume1_dev-p198-c1-a4e00d7e6a",
+      "charaka_vanloon_volume1_dev-p201-c1-ccd343b219",
+      "charaka_vanloon_volume1_dev-p202-c1-c17edaae86",
+      "charaka_vanloon_volume1_dev-p203-c1-4621c1d55f",
+      "charaka_vanloon_volume1_dev-p204-c1-fc56dbc6d4",
+      "charaka_vanloon_volume1_dev-p206-c1-5cf4e26bd3",
+      "charaka_vanloon_volume1_dev-p208-c1-8df66f64b5",
+      "charaka_vanloon_volume1_dev-p211-c1-e2fb4384f2",
+      "charaka_vanloon_volume1_dev-p218-c1-5966abd0cb",
+      "charaka_vanloon_volume1_dev-p220-c1-36790ecd55",
+      "charaka_vanloon_volume1_dev-p221-c1-67e9c3aceb",
+      "charaka_vanloon_volume1_dev-p222-c1-9b87151232",
+      "charaka_vanloon_volume1_dev-p239-c1-79bf08685d",
+      "charaka_vanloon_volume1_dev-p241-c1-749fc650ca",
+      "charaka_vanloon_volume1_dev-p242-c1-1406369760",
+      "charaka_vanloon_volume1_dev-p244-c1-82c01ce15b",
+      "charaka_vanloon_volume1_dev-p249-c1-9f484139a2",
+      "charaka_vanloon_volume1_dev-p257-c1-4c970004b0",
+      "charaka_vanloon_volume1_dev-p261-c1-e888a676e1",
+      "charaka_vanloon_volume1_dev-p262-c1-9e6a72557a",
+      "charaka_vanloon_volume1_dev-p266-c1-ea5b27556f",
+      "charaka_vanloon_volume1_dev-p270-c1-d8d1790737",
+      "charaka_vanloon_volume1_dev-p271-c1-3635a91e3d",
+      "charaka_vanloon_volume1_dev-p273-c1-303c8bd558",
+      "charaka_vanloon_volume1_dev-p275-c1-3a1dfb05d7",
+      "charaka_vanloon_volume1_dev-p280-c1-7f0a22117f",
+      "charaka_vanloon_volume1_dev-p281-c1-71a1c003a2",
+      "charaka_vanloon_volume1_dev-p311-c1-20e9c64c05",
+      "charaka_vanloon_volume1_dev-p312-c1-865736a1c3",
+      "charaka_vanloon_volume1_dev-p313-c1-8efbbe9bc1",
+      "charaka_vanloon_volume1_dev-p329-c1-0791963ca2",
+      "charaka_vanloon_volume1_dev-p335-c1-7acc684a84",
+      "charaka_vanloon_volume1_dev-p339-c1-fc95ce1766",
+      "charaka_vanloon_volume1_dev-p340-c1-9644294ac4",
+      "charaka_vanloon_volume1_dev-p343-c1-3c15285c04",
+      "charaka_vanloon_volume1_dev-p352-c1-9a72c24f2f",
+      "charaka_vanloon_volume1_dev-p356-c1-03a3d955b8",
+      "charaka_vanloon_volume1_dev-p362-c1-3963317a2b",
+      "charaka_vanloon_volume1_dev-p363-c1-79c1af7d12",
+      "charaka_vanloon_volume1_dev-p374-c1-01299ac657",
+      "charaka_vanloon_volume1_dev-p377-c1-b19088bbe1",
+      "charaka_vanloon_volume1_dev-p393-c1-04760549be",
+      "charaka_vanloon_volume1_dev-p398-c1-188c1fdca7",
+      "charaka_vanloon_volume1_dev-p399-c1-0f78540965",
+      "charaka_vanloon_volume1_dev-p400-c1-26d228663f",
+      "charaka_vanloon_volume1_dev-p409-c1-480f5a4965",
+      "charaka_vanloon_volume1_dev-p410-c1-eb28435e12",
+      "charaka_vanloon_volume1_dev-p414-c1-8111eb1556",
+      "charaka_vanloon_volume1_dev-p415-c1-fc72c98a6c",
+      "charaka_vanloon_volume1_dev-p436-c1-155d1cf609",
+      "charaka_vanloon_volume1_dev-p437-c1-0ef962215c"
+    ],
+    "heading_or_page_like": 145,
+    "missing_page_metadata": 0,
+    "unknown_provenance": 328,
+    "exact_duplicate_groups": 0,
+    "duplicate_examples": [],
+    "provenance_counts": {
+      "unknown": 328,
+      "editor_note": 730,
+      "table": 7,
+      "translated_source": 490
+    }
+  },
+  "results": [
+    {
+      "id": "q01",
+      "query": "What are the three doshas and how are Vata, Pitta, and Kapha described?",
+      "expected_topic": "Vata, Pitta, Kapha",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p36-c4-d2a07d9dea",
+          "text": "evere abnormalities as 3 seasons, when abnormal, produce harmful effects in the world particularly at the time of final destruction. Su12#13\n\nDiscussion About Prakruti and the Doshas: “Some say– ‘there are no persons having all the 3 doshas in equilibrium because of the use of unbalanced food, thus some are having Vata constitution, some Pitta constitution and others Kapha constitution.’ This statement not correct. Why? Because the physicians take the person having balanced V, P and K as healthy, health is normalcy and for the same object therapeutic measures are applied. Hence there are (person having prakrti as) balanced V, P and K but there are no prakrtis (constitution) like V, P or K. Because of predominance of certain dosha in person the respective dosha prakrti of the",
+          "metadata": {
+            "edition": "Edited handbook edition; edition details require rights review",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "page_number": 36,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "pdf_page": 36,
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "provenance_role": "translated_source"
+          },
+          "distance": 0.31676292419433594,
+          "cosine_similarity": 0.6832370758056641
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p39-c1-244dd08818",
+          "text": "39\n\n“In persons having equilibrium of all doshas, the character of them are found.” Vi8#100\n\nThe 3 body doshas and the 2 mind doshas, when vitiated, produce innumerable different disorders due to different vitiating factors and dusya (affected entities). Vi6#7\n\nThe three triple movements of the Doshas: Diminution, Normalcy, and aggravation upward, downward, and oblique vement in the Belly, Extremities, and Vital organs+joints Su17#112-113",
+          "metadata": {
+            "provenance_role": "translated_source",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "page_number": 39,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "usage_scope": "development_only",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 39,
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "extraction_method": "digital"
+          },
+          "distance": 0.3209027647972107,
+          "cosine_similarity": 0.6790972352027893
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p196-c3-0d35aa2e35",
+          "text": "of body parts. K V+P Produces giddiness, cramps, piercing pain, burning sensation, cracking, trembling, bodyache, wasting, distress, fuming.\n\nV+P K K, blocking up channels, produces loss of movement, fainting and difficulty in speech. V+K P P dislocates the Ojas and produces malaise, weakness in sense organs, thirst, fainting and loss of function. P+K V V produces severe pain in the vital organs, loss of sensation, and trembling -this whole chart Su17#45-61\n\nSigns of Vata Sub-types Covered by Kapha and Pitta Covering Blocked Signs Dosha Dosha Pitta Prana fainting, burning sensation, giddiness, pain, burning in stomach, liking for cold, vomiting of half-burnt food.",
+          "metadata": {
+            "chapter_reference": "II: “The Flowered Person”",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "page_number": 196,
+            "translator": "Not verified in supplied PDF metadata",
+            "provenance_role": "translated_source",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 196,
+            "chapter_title": "“The Flowered Person”",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "chapter_number": "II",
+            "usage_scope": "development_only"
+          },
+          "distance": 0.32592183351516724,
+          "cosine_similarity": 0.6740781664848328
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p88-c1-f56d5f007b",
+          "text": "88\n\nserpent) Praita Having longing for food, troublesome conduct, behavior and management, back- (similar to biting, not distributing shares to others, greedy and inactive. -Sa4#37.5 Preta) Sakuna Passionate, constantly indulged in food and pastimes, unstable, intolerant, not (similar to having hoarding tendency. -Sa4#37.6 sakunibirds)\n\nThe 3 Types of Tamasa (Ignorant) Personalities: Type: Characters: Pasava (similar to Repudiating, devoid of intelligence, having despised food and behavior, pasu- animals) indulged in sexual act and sleep. -Sa4#38.1 Matsya (similar to Timid, unwise, gluttonous, unstable, constantly under the grip of passion matsya- fish) and anger, always moving and liking water. -Sa4#38.2 Vanasapatya Idle, indulged only in food and devoid of entire intelligence and bodily (similar to actions. -Sa4#38.3 Vanaspati- plant)",
+          "metadata": {
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "extraction_method": "digital",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "translator": "Not verified in supplied PDF metadata",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 88,
+            "usage_scope": "development_only",
+            "provenance_role": "translated_source",
+            "pdf_page": 88
+          },
+          "distance": 0.35230958461761475,
+          "cosine_similarity": 0.6476904153823853
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p105-c2-9316203c66",
+          "text": "of the 3 vital organs, urustambha (stiffness of thighs), vatavyadhi, vatarakta, yonivyapat (disorders of female genital organs). -Su30#56-60\n\nNow I shall tell about the pharmaceuticals which are described under Kalpasthana (section on pharmaceuticals) in 12 chapters such as– (madana) phala, jimuta, iksvaku, dhamargava, vatsaka, krtavedhana, syama-trivrt, aragvadha, tilvaka, snuhi, saptalasamkhini and danti-dravanti. -Su30#61-64\n\nIn Siddhisthana (section on successful management) there are 12 chapters such as– management of evacuative measures, persons suitable and unsuitable for unctuous enema, management of the complications arisen due to improper application of enema, management of the complications of emesis and purgation, management of the complications of enema, various types of enematic formulations, management of the diseases of the 3 vital organs, application of enema, enema prepared with madanaphala, urethral and vaginal douches. “Thus the treatise is completed.” -Su30#65-67",
+          "metadata": {
+            "extraction_method": "digital",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "pdf_page": 105,
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "provenance_role": "translated_source",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "page_number": 105,
+            "translator": "Not verified in supplied PDF metadata",
+            "usage_scope": "development_only",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c"
+          },
+          "distance": 0.3542560338973999,
+          "cosine_similarity": 0.6457439661026001
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.31676292419433594,
+        "similarity": 0.6832370758056641,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q02",
+      "query": "How is Vata characterized in the discussion of the doshas?",
+      "expected_topic": "Vata",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p39-c1-244dd08818",
+          "text": "39\n\n“In persons having equilibrium of all doshas, the character of them are found.” Vi8#100\n\nThe 3 body doshas and the 2 mind doshas, when vitiated, produce innumerable different disorders due to different vitiating factors and dusya (affected entities). Vi6#7\n\nThe three triple movements of the Doshas: Diminution, Normalcy, and aggravation upward, downward, and oblique vement in the Belly, Extremities, and Vital organs+joints Su17#112-113",
+          "metadata": {
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "usage_scope": "development_only",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 39,
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 39,
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "provenance_role": "translated_source"
+          },
+          "distance": 0.32398557662963867,
+          "cosine_similarity": 0.6760144233703613
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p36-c4-d2a07d9dea",
+          "text": "evere abnormalities as 3 seasons, when abnormal, produce harmful effects in the world particularly at the time of final destruction. Su12#13\n\nDiscussion About Prakruti and the Doshas: “Some say– ‘there are no persons having all the 3 doshas in equilibrium because of the use of unbalanced food, thus some are having Vata constitution, some Pitta constitution and others Kapha constitution.’ This statement not correct. Why? Because the physicians take the person having balanced V, P and K as healthy, health is normalcy and for the same object therapeutic measures are applied. Hence there are (person having prakrti as) balanced V, P and K but there are no prakrtis (constitution) like V, P or K. Because of predominance of certain dosha in person the respective dosha prakrti of the",
+          "metadata": {
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "pdf_page": 36,
+            "page_number": 36,
+            "edition": "Edited handbook edition; edition details require rights review",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "provenance_role": "translated_source",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.32954156398773193,
+          "cosine_similarity": 0.6704584360122681
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p119-c3-79b6901fd2",
+          "text": "iscussion is recorded like this– this is worth speaking, this is not worth-speaking, because of this one is defeated. Vi8#26 These terms are worth-knowing for acquaintance of the course of discussion among physicians such as– ‘vada’, dravya, guna, karma, samanya, visesa, samavaya, pratijna, sthapana, partisthapana, hetu, drstanta, upanaya, nigamana, uttara, siddhanta, sabda, pratyaksa, anumana, aitihya, aupamya, saumsaya, prayojana, savyabhicara, jijnsa, vyavasaya, arthaprapti, sambhava, anuyojya, ananuyojya, anuyoga, pratyanuyoga, vakyadosa, vakyaprasamsa, chala, ahetu, atitakala, upalambha, parihara, partijnahani, abhyanujna, hetvantara, arthantara, nigrahasthana Vi8#27\n\nVada (debate) is that in which one holds academic discussion with a contending opponent. This is briefly of 2 types– jalpa (positive discourse) and vitanda (negative",
+          "metadata": {
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "usage_scope": "development_only",
+            "pdf_page": 119,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "provenance_role": "translated_source",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "page_number": 119,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata"
+          },
+          "distance": 0.3311152458190918,
+          "cosine_similarity": 0.6688847541809082
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p524-c3-bd6cf09127",
+          "text": "on, shaping of dhatus and physical activities are derived from vayu. Those derived from tejas are vision, the visual organ, light, digestion and heat. Those derived from ap are taste, the gustatory organ, coldness, softness, unction and moistening. Those derived from prthvi are smell, olfactory organ, heaviness, stability and mass. Sa4#12 Thus the person is equal to the universe. Whatever formed entities are found in the universe, they are also found in the person and vice versa. The learned people want to see the phenomena with this angle.",
+          "metadata": {
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "provenance_role": "translated_source",
+            "usage_scope": "development_only",
+            "pdf_page": 524,
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "page_number": 524,
+            "chapter_reference": "II: “The Flowered Person”",
+            "chapter_number": "II",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "chapter_title": "“The Flowered Person”"
+          },
+          "distance": 0.3340489864349365,
+          "cosine_similarity": 0.6659510135650635
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p39-c3-bcc91d0fe4",
+          "text": "on or increase in opposite actions. -Su18#52 The aggravation of dosas is known invariably by the increase in their normal functions. Su18#53\n\nSeasonal Influence on the Doshas: Accumulation, vitiation and pacification of P, K and V occurs in seasons of rains etc. respectively, “Thus CONDITIONING is natural by the effect of the seasonal changes.” Su17#114 P is accumulated, vitiated and pacified in rainy season autumn and early rains, respectively. K is accumulated, vitiated and pacified in early winter, spring and summer respectively. V is accumulated, vitiated and pacified in summer, rainy seasons and autumn, respectively. -credit: footnote to Su17#114, by P.V. Sharma, p.124, Vol I",
+          "metadata": {
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "provenance_role": "translated_source",
+            "usage_scope": "development_only",
+            "page_number": 39,
+            "translator": "Not verified in supplied PDF metadata",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "pdf_page": 39,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "extraction_method": "digital",
+            "source_id": "charaka_vanloon_volume1_dev"
+          },
+          "distance": 0.33631813526153564,
+          "cosine_similarity": 0.6636818647384644
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.32398557662963867,
+        "similarity": 0.6760144233703613,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q03",
+      "query": "How is Pitta characterized in the discussion of the doshas?",
+      "expected_topic": "Pitta",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p44-c2-89906f1668",
+          "text": "f the low degree of strength, life-span, progeny, means and wealth. presence of these qualities, these people have: This whole chart- Vi8#98\n\nPitta Qualities: Slightly unctuous, hot, sharp, liquid, sour, mobile and pungent. -",
+          "metadata": {
+            "provenance_role": "translated_source",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "page_number": 44,
+            "pdf_page": 44,
+            "extraction_method": "digital",
+            "edition": "Edited handbook edition; edition details require rights review"
+          },
+          "distance": 0.33341920375823975,
+          "cosine_similarity": 0.6665807962417603
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p46-c1-06e31415aa",
+          "text": "46\n\nP is hot, sharp, liquid, of fleshy smell, sour and pungent. Because of this Quality: Pitta has this Attribute:\n\nhotness intolerant to heat, having hot face, delicate and fair organs, plenty of moles, freckles, black moles and pimples excessive hunger and thirst, early appearance of wrinkles, greying and falling of hairs, mostly soft, sparse, and brown beard-mustaches, “small hairs and hairs” sharpness sharp prowess, intense fire, taking plenty of food and drink, lack of endurance, frequently eating liquidity lax and soft joints and muscles, excess secretion of sweat, urine and faeces fleshy smell excessive foetid smell in axilla, mouth, head and body pungency and sourness little semen, little sexual act, and few progeny Because of the presence of all of these moderate in strength, life-span, knowledge, qualities, P person having predominance in understanding, wealth, means. P are:\n\nThis whole chart- Vi8#97",
+          "metadata": {
+            "page_number": 46,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 46,
+            "provenance_role": "translated_source",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "extraction_method": "digital",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "usage_scope": "development_only",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c"
+          },
+          "distance": 0.34365367889404297,
+          "cosine_similarity": 0.656346321105957
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p36-c4-d2a07d9dea",
+          "text": "evere abnormalities as 3 seasons, when abnormal, produce harmful effects in the world particularly at the time of final destruction. Su12#13\n\nDiscussion About Prakruti and the Doshas: “Some say– ‘there are no persons having all the 3 doshas in equilibrium because of the use of unbalanced food, thus some are having Vata constitution, some Pitta constitution and others Kapha constitution.’ This statement not correct. Why? Because the physicians take the person having balanced V, P and K as healthy, health is normalcy and for the same object therapeutic measures are applied. Hence there are (person having prakrti as) balanced V, P and K but there are no prakrtis (constitution) like V, P or K. Because of predominance of certain dosha in person the respective dosha prakrti of the",
+          "metadata": {
+            "page_number": 36,
+            "edition": "Edited handbook edition; edition details require rights review",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "provenance_role": "translated_source",
+            "pdf_page": 36
+          },
+          "distance": 0.34740149974823,
+          "cosine_similarity": 0.65259850025177
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p39-c1-244dd08818",
+          "text": "39\n\n“In persons having equilibrium of all doshas, the character of them are found.” Vi8#100\n\nThe 3 body doshas and the 2 mind doshas, when vitiated, produce innumerable different disorders due to different vitiating factors and dusya (affected entities). Vi6#7\n\nThe three triple movements of the Doshas: Diminution, Normalcy, and aggravation upward, downward, and oblique vement in the Belly, Extremities, and Vital organs+joints Su17#112-113",
+          "metadata": {
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 39,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "provenance_role": "translated_source",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "extraction_method": "digital",
+            "translator": "Not verified in supplied PDF metadata",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "usage_scope": "development_only",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 39
+          },
+          "distance": 0.3525817394256592,
+          "cosine_similarity": 0.6474182605743408
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p119-c3-79b6901fd2",
+          "text": "iscussion is recorded like this– this is worth speaking, this is not worth-speaking, because of this one is defeated. Vi8#26 These terms are worth-knowing for acquaintance of the course of discussion among physicians such as– ‘vada’, dravya, guna, karma, samanya, visesa, samavaya, pratijna, sthapana, partisthapana, hetu, drstanta, upanaya, nigamana, uttara, siddhanta, sabda, pratyaksa, anumana, aitihya, aupamya, saumsaya, prayojana, savyabhicara, jijnsa, vyavasaya, arthaprapti, sambhava, anuyojya, ananuyojya, anuyoga, pratyanuyoga, vakyadosa, vakyaprasamsa, chala, ahetu, atitakala, upalambha, parihara, partijnahani, abhyanujna, hetvantara, arthantara, nigrahasthana Vi8#27\n\nVada (debate) is that in which one holds academic discussion with a contending opponent. This is briefly of 2 types– jalpa (positive discourse) and vitanda (negative",
+          "metadata": {
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "page_number": 119,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "extraction_method": "digital",
+            "translator": "Not verified in supplied PDF metadata",
+            "pdf_page": 119,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "usage_scope": "development_only",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "provenance_role": "translated_source"
+          },
+          "distance": 0.3578174114227295,
+          "cosine_similarity": 0.6421825885772705
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.33341920375823975,
+        "similarity": 0.6665807962417603,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q04",
+      "query": "How is Kapha characterized in the discussion of the doshas?",
+      "expected_topic": "Kapha",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p303-c3-0705912a2c",
+          "text": "with pleasing, cool, and fragrant breeze, use of garlands of water lily and lotus and of all the things which are soothing in nature. Vi6#17\n\nFor balancing Kapha: sharp and hot evacuatives, food mostly rough and added with pungent, bitter and astringent things, running jumping, leaping, cyclic movements, vigils, fighting, sexual intercourse, physical exercise, pressing, bath, anointing, frequent use of sharp and old wines, smoking, fasting, warm clothes, abstinence from comforts leading to happiness itself.",
+          "metadata": {
+            "chapter_title": "“The Flowered Person”",
+            "chapter_number": "II",
+            "extraction_method": "digital",
+            "provenance_role": "translated_source",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only",
+            "translator": "Not verified in supplied PDF metadata",
+            "chapter_reference": "II: “The Flowered Person”",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 303,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "page_number": 303,
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c"
+          },
+          "distance": 0.34367334842681885,
+          "cosine_similarity": 0.6563266515731812
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p116-c3-c4e36ee42d",
+          "text": "The following is from Su30#69-85 Interrogation is the question on any subject from the treatise according to the accepted procedure. Interpretation of the interrogation is the rational solution of the same on the basis of the treatise. The word “Tantra” is derived from “tantrana” (pervasiveness and protection), “Sthana” from “arthapratistha” (containing the subject well) and the titles of adhyayas (chapters) are based on various topics. Thus according to query, the entire “Astaka” (8 topics) has been explained. In this way, the well-defined subjectmatter of the text has also been said in entirety. Su30#69-71 There are persons having partial and superficial informations whose unexpected flying up creates irritation like that of male bustard. Hence, in the beginning of the talk, one should always put the 8 topics with a view to testing the superiority or inferiority because there only the well-versed in scriptures can stand while those knowing a portion of it feel giddy by the very word of the entire treatise like the weak bustards by the sound of bow-string. Su30#72-74 Some animal in",
+          "metadata": {
+            "translator": "Not verified in supplied PDF metadata",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "page_number": 116,
+            "extraction_method": "digital",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "pdf_page": 116,
+            "provenance_role": "translated_source",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "license_note": "Development-only inspection; copyright/permission not established"
+          },
+          "distance": 0.3504951596260071,
+          "cosine_similarity": 0.6495048403739929
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p104-c3-4db6ba5a4b",
+          "text": "of a physician. -Su30#36-43 6 quadruplets on drugs, the healthy, precepts, preparations, diseases and planning, the 7th one concerning food and drinks along with 2 concluding chapters in the end constitute the 30-chaptered, meaningful Slokasthana which is regarded as the auspicious head of the treatise. In this section, the quadruplets having deep significance have been compiled together. This section is called as Slokasthana because of it’s praise-worthy position and compilatory character.\n\n-Su30#44-46\n\nIn Nidanasthana (section on pathology and diagnosis) there are 8 chapters; 1 each on fever, internal hemorrhage, gulma, prameha, leprosy, phthisis, insanity and epilipsy. -Su30#47\n\nIn Vimanasthana (section on specific measures) 8 chapters one each on rasa, the 3 portions of the belly, epidemics, the 3 means of diagnosis of diseases, srotas (channels), classification of diseases, types of patients and treatment of diseases have been dealt with by the sage for the purpose of determining measures. -Su30#48-49",
+          "metadata": {
+            "usage_scope": "development_only",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "translator": "Not verified in supplied PDF metadata",
+            "extraction_method": "digital",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "pdf_page": 104,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "page_number": 104,
+            "provenance_role": "translated_source"
+          },
+          "distance": 0.3527069091796875,
+          "cosine_similarity": 0.6472930908203125
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p104-c4-075ecc75ad",
+          "text": "diseases, types of patients and treatment of diseases have been dealt with by the sage for the purpose of determining measures. -Su30#48-49\n\nTypes of person, dissimilar clan, appearance of fetus (lesser and greater chapters), analysis of person, analysis of body, enumeration of body parts, delivery and management of child– these 8 chapters have been dealt with by the sage, the son of Atri, in the Sarirasthana (section on anatomy). -Su30#50-52\n\n‘Indriyasthana’ (section on fatal signs and symptoms) contains 12 chapters , such as, relating to complexion and voice, flowering, palpatory, sense organs, prodroma, characters of diseases, distorted images, inverted images, discoloration, imminent death, minute spot and cow-dung-powder. -Su30#53-55",
+          "metadata": {
+            "pdf_page": 104,
+            "usage_scope": "development_only",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "page_number": 104,
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "provenance_role": "translated_source"
+          },
+          "distance": 0.35291898250579834,
+          "cosine_similarity": 0.6470810174942017
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p36-c4-d2a07d9dea",
+          "text": "evere abnormalities as 3 seasons, when abnormal, produce harmful effects in the world particularly at the time of final destruction. Su12#13\n\nDiscussion About Prakruti and the Doshas: “Some say– ‘there are no persons having all the 3 doshas in equilibrium because of the use of unbalanced food, thus some are having Vata constitution, some Pitta constitution and others Kapha constitution.’ This statement not correct. Why? Because the physicians take the person having balanced V, P and K as healthy, health is normalcy and for the same object therapeutic measures are applied. Hence there are (person having prakrti as) balanced V, P and K but there are no prakrtis (constitution) like V, P or K. Because of predominance of certain dosha in person the respective dosha prakrti of the",
+          "metadata": {
+            "pdf_page": 36,
+            "translator": "Not verified in supplied PDF metadata",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "provenance_role": "translated_source",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "page_number": 36,
+            "extraction_method": "digital",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "usage_scope": "development_only",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.3605847954750061,
+          "cosine_similarity": 0.6394152045249939
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.34367334842681885,
+        "similarity": 0.6563266515731812,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q05",
+      "query": "What does the text say about Agni and digestion?",
+      "expected_topic": "Agni and digestion",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p305-c2-b6e37498d9",
+          "text": "tability) -Vi2#13\n\nAgni weakened by over-vitiation of ama is not capable of digesting the derangement, drug and food simultaneously. -Vi2#13\n\nOver and above, the “faulty course” of over-vitiated ama, food and drug, due to over-strength, fells down suddenly the patient who is weak and has lowered agni. - Vi2#13\n\n“If it (the disorder) continues further, one should adopt appropriate measure contrary to the disease, leaving aside the treatments contrary to etiology, for the control of disease in which de-saturation therapy has already been done.” Vi2#13",
+          "metadata": {
+            "chapter_number": "II",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "pdf_page": 305,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "provenance_role": "translated_source",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "translator": "Not verified in supplied PDF metadata",
+            "chapter_reference": "II: “The Flowered Person”",
+            "page_number": 305,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "chapter_title": "“The Flowered Person”",
+            "extraction_method": "digital",
+            "usage_scope": "development_only",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.2781691551208496,
+          "cosine_similarity": 0.7218308448791504
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p73-c1-b2afdcb501",
+          "text": "73\n\nAgni (Digestive Fire/ Metabolism):\n\nFactors dependent on Agni: strength, health, life-span, vital breath Su27#342 Fuel for the Agni: Agni burns with the fuel of food and drinks, otherwise it is impaired. Su27#342\n\n4 Types of Agni: The 4 Agni Description: Typical Relation to Body Type: Types: 1) Intense: can tolerate all sorts of improper regimen Found in P people. The seat of fire becomes subdued by P and thus the fire becomes intense. 2) Mild: can not tolerate any improper regimen Found in K people. The seat of fire becomes subdued by K and the fire becomes mild. 3) Regular: gets affected by improper regimen, but Found in person with V,P,K each in otherwise remains normal. balance. 4)Irregular: may or may not be effected by improper Found in V persons. or even regular regimen. The seat of fire having been subdued by V, the fire becomes irregular. This whole chart- Vi6#12",
+          "metadata": {
+            "page_number": 73,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "provenance_role": "translated_source",
+            "pdf_page": 73,
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "usage_scope": "development_only",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.2805441617965698,
+          "cosine_similarity": 0.7194558382034302
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p122-c2-da18532a25",
+          "text": "as the knowledge of agni by the power of digestion, that of strength by the power of exercise, auditory organ etc. by the perception of sound etc. Vi8#40 Aitihya (tradition)-- this is the traditional authoritative source of knowledge such as veda, etc. Vi8#41 Aupamya (analogy)-- this is the statement of similarity between things such asanalogy of dandaka with danda (staff), that of dhanuhsthmbha with bow and that of the provider of health with the archer. Vi8#42 Samsaya (doubt)-- this is the state of indecision about the concerned entity. For instance, on observing that both types of persons having or not the signs of longevity and adopting or not the therapeutic measures- die early and live long, doubt arises as whether there is untimely death or not. Vi8#43 Prayojana (object)-- this is that for which the actions are initiated. Such as- ‘if there is untimely death, I will use life-promoting measures and avoid the contrary ones. Then how would the untimely death subdue me?’ Vi8# 44 Savyabhicara (uncertain statement)-- this is that which has uncertainty. Such as ‘this medicament may",
+          "metadata": {
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "page_number": 122,
+            "pdf_page": 122,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "provenance_role": "translated_source",
+            "usage_scope": "development_only",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.28605014085769653,
+          "cosine_similarity": 0.7139498591423035
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p232-c2-bccf1e997e",
+          "text": "little quantity. Salt. Predominate in Agni and Vayu. Processing: frying makes light. Stimulant of digestion. Su27#332-333, 336-338, 340-341\n\nHeavy foods: wheat, dairy, meat of domestic, sedentary, and marshy animals, or animals born in the marshlands, or animals who eat heavy food, pig, buffalo, black gram, sesame and nut butters, sugar, . Meat of male and big animals. New grains, foods. Food taken in large quantity. Flour, sugarcane, milk, sesame, Predominate in prthvi and apa.. Not stimulant of digestion. Cause considerable derangement if taken up to saturation point. Flattened rice. Dried meat, dried vegetable, lotus tubers, ..... Cheese., fish, yogurt, Su27#332-333, 336-337, 340-341",
+          "metadata": {
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "pdf_page": 232,
+            "chapter_number": "II",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "usage_scope": "development_only",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "chapter_reference": "II: “The Flowered Person”",
+            "extraction_method": "digital",
+            "page_number": 232,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "provenance_role": "translated_source",
+            "chapter_title": "“The Flowered Person”"
+          },
+          "distance": 0.3049299716949463,
+          "cosine_similarity": 0.6950700283050537
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p179-c1-d58cebe70f",
+          "text": "179\n\nIn10#21\n\nPoor Digestion, etc. and Death",
+          "metadata": {
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "provenance_role": "translated_source",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "chapter_title": "“The Flowered Person”",
+            "extraction_method": "digital",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "usage_scope": "development_only",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "chapter_reference": "II: “The Flowered Person”",
+            "pdf_page": 179,
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 179,
+            "chapter_number": "II"
+          },
+          "distance": 0.3188924789428711,
+          "cosine_similarity": 0.6811075210571289
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.2781691551208496,
+        "similarity": 0.7218308448791504,
+        "abstained": false
+      }
+    },
+    {
+      "id": "q06",
+      "query": "What are the six tastes or rasa discussed in the text?",
+      "expected_topic": "Rasa / six tastes",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p140-c2-fe00f1471d",
+          "text": "the effect of rasa (taste) (individual) and dravya (drug) (total) on one side and dosa (individual) and disease (total) on the other. Vi1#12\n\nHow to Evaluate Drugs with Multiple Tastes or Diseases with Multiple Doshas: Where there is a substance having several tastes or a disorder having several doshas one should first critically analyze the role of rasas or dosas individually and then decide the effect of the substance or the disorder wholly. Vi1#9\n\nExceptions to the Above Rule: But this rule is not applicable universally because in case of the disorders where the effect is not exactly in accordance with the cause due to various causative factors operating, mutual subordination and variation in processings, it is not possible to decide the effect of the total drug or disease on the basis of the effect of it’s individual rasas (tastes) or dosas. Vi1#10",
+          "metadata": {
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "provenance_role": "translated_source",
+            "pdf_page": 140,
+            "edition": "Edited handbook edition; edition details require rights review",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "usage_scope": "development_only",
+            "page_number": 140,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "extraction_method": "digital",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.29110580682754517,
+          "cosine_similarity": 0.7088941931724548
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p28-c4-432f805e81",
+          "text": "later dries of the 6 up tastes) ‘Ksara’ is so-called because of ‘Ksarana’ (‘having been poured out’). It is not a rasa (taste) but a dravya (substance), because it has been derived from many substances, having many rasas (tastes) (but predominantly pungent and salty), with many sense objects and produced by a particular method of preparation. -Su26#9",
+          "metadata": {
+            "pdf_page": 28,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "usage_scope": "development_only",
+            "page_number": 28,
+            "extraction_method": "digital",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "translator": "Not verified in supplied PDF metadata",
+            "provenance_role": "translated_source",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.30112767219543457,
+          "cosine_similarity": 0.6988723278045654
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p15-c3-067690d49d",
+          "text": "pan. For those having exalted mind, qualities and actions the crops grew endowed with inconceivable rasa, virya, vipaka, prabhava, and other properties due to presence of all qualities in earth etc (the five elements?) In the beginning of Krtayuga. Vi3#24",
+          "metadata": {
+            "pdf_page": 15,
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 15,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "usage_scope": "development_only",
+            "provenance_role": "translated_source",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev"
+          },
+          "distance": 0.3551499843597412,
+          "cosine_similarity": 0.6448500156402588
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p143-c2-fa2fc569d1",
+          "text": ") taste and 12) smell; 13) complications, 14- 16) aggravation, stasis and diminution, 17) consequences, 18) name and 19) associations. Vi4#6\n\nGather knowledge using the sense organs: Listen for: gurgling sounds of intestines, cracking sound in joints and finger nodes, characters of voice and other body sounds. Look for: color, shape, size, lustre, normal and abnormal characters of the body, etc. and other visual objects. Taste: should be inferred in this way: Know the taste of patient’s mouth by questioning him. Know abnormal tastes of his body by retreating lice, sweetness of his body by approaching flies; the doubt about internal hemorrhage as to whether it is pure blood or blood effected with pitta (bile?) Is removed by feeding the sample of blood to crow or dog; if they eat it, it is pure blood otherwise effected one. In this way other tastes in body parts may be inferred. Smell: normal or abnormal, in all body parts of the patient should be checked.",
+          "metadata": {
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "pdf_page": 143,
+            "provenance_role": "translated_source",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 143,
+            "translator": "Not verified in supplied PDF metadata",
+            "usage_scope": "development_only",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.3598875403404236,
+          "cosine_similarity": 0.6401124596595764
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p24-c1-db631d9713",
+          "text": "24\n\nCause of variation of elements (and thus the diffferent character) in the tastes: Proportional variation of the 5 elements in the tastes of various substances is possible due to the change of seasons. Each season is predominant in a different quality or element. For example, plants grown in the late summer will have more fire element, and thus more pungent taste. Plants grown in the spring will have more water element and thus more sweet taste. -this sutra: Su26#40\n\nIt is also due to various complexions and shapes in plants and animals. Su26#40\n\nThe Reason Why the Number of Tastes is Only 6, and Not Innumerable: The variations of substances coming together to form other substances with unique tastes is innumerable, but the 6 categories of tastes are limited because they are formed only by the 5 elements. Su26#9",
+          "metadata": {
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "extraction_method": "digital",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "translator": "Not verified in supplied PDF metadata",
+            "provenance_role": "translated_source",
+            "usage_scope": "development_only",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 24,
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "page_number": 24
+          },
+          "distance": 0.3652638792991638,
+          "cosine_similarity": 0.6347361207008362
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.29110580682754517,
+        "similarity": 0.7088941931724548,
+        "abstained": false
+      }
+    },
+    {
+      "id": "q07",
+      "query": "What are gunas and the pairs of qualities?",
+      "expected_topic": "Guna / qualities",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p110-c3-0b3dbfc3d6",
+          "text": "of words and ideas, free from textual defects and adored with 36 particular “Tantrayuktis” (devices of treatise). (( all the above came from Siddhisthanam, chptr. XII, ending on pg. 681))\n\nThe Teacher:\n\nQualities of the Teacher: One should examine the teacher. He should have clear idea of the subject, should have seen the practical applications, be skilful, amicable, pure, having practical experience, well-equipped, possessing all the senses in normal condition, acquainted with human constitutions, wellversed in courses of actions, having his knowledge uncensored, free from conceit, envy, anger, forbearing, fatherly to disciples, having qualities of a good teacher and capable of infusing understanding. The teacher possessing such qualities inculcates physician’s qualities in his disciple in a short time like the seasonal cloud providing good crop in a suitable land. Vi8#4\n\nQualities of the great sages: sources of spiritual knowledge, (self control) and restraint of mind, illumined with brilliance of penance like fire.",
+          "metadata": {
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "page_number": 110,
+            "extraction_method": "digital",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "usage_scope": "development_only",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "provenance_role": "translated_source",
+            "pdf_page": 110,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.33207476139068604,
+          "cosine_similarity": 0.667925238609314
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p102-c2-6ada9ac52f",
+          "text": "Qualities of the Treatise: Various treaties in medicine are found in society. From amongst them, one should select that which is great, used by eminent and wise men, full of ideas, respected by authorities, intelligible and beneficial to all the 3 types of disciples (dull, mediocre and intelligent), free from the defect of repetition, coming down from the sages, with well-composed introduction, discussion and conclusion, having firm base, free from week and difficult words, having abundant expressions, with traditional ideas, devoted mainly to arriving at the essence of ideas, having consistent ideas, with demarcated topics, easily comprehensible, and having definitions illustrated with examples. Such a treatise, like the clear sun, enlightens the entire subject, while warding off the darkness of ignorance. Vi8#3 The Charaka (and any good text)contains various ideas, variegated with various sentences pleasing with meanings, possessed with various auspicious words and their unions and capable of defeating opponents in various debates. Vi8#155 Origin of the Charaka Samhita and It’s",
+          "metadata": {
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "pdf_page": 102,
+            "extraction_method": "digital",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 102,
+            "provenance_role": "translated_source",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata",
+            "usage_scope": "development_only"
+          },
+          "distance": 0.3399064540863037,
+          "cosine_similarity": 0.6600935459136963
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p19-c1-d9d1203a55",
+          "text": "19\n\nInherence (samavaya): is the inseparableness of dravya (substances) with their gunas (Properties); no substance is devoid of property. Su1#50\n\nAction (Karma): causative factor of conjunction and disjunction located in substance performance of that to be done doesn’t require another factor Su1#52",
+          "metadata": {
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "page_number": 19,
+            "pdf_page": 19,
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "usage_scope": "development_only",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "provenance_role": "translated_source",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "extraction_method": "digital",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.3431006669998169,
+          "cosine_similarity": 0.6568993330001831
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p44-c2-89906f1668",
+          "text": "f the low degree of strength, life-span, progeny, means and wealth. presence of these qualities, these people have: This whole chart- Vi8#98\n\nPitta Qualities: Slightly unctuous, hot, sharp, liquid, sour, mobile and pungent. -",
+          "metadata": {
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "pdf_page": 44,
+            "translator": "Not verified in supplied PDF metadata",
+            "provenance_role": "translated_source",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "page_number": 44,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "usage_scope": "development_only"
+          },
+          "distance": 0.3431479334831238,
+          "cosine_similarity": 0.6568520665168762
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p66-c3-8be922b2de",
+          "text": "and compact; having pleasant and and progeny. unctuous complexion and voice, brilliant, -this row: Vi8#109 having prominent buttocks. Sattva (psyche) memory, devotion, are grateful, learned, Their characters are explained by (mind) pure, courageous, skillful, resolute, fighting their signs, just mentioned. in battles with prowess, free from anxiety, -this row: Vi8#110 having well-directed and serious intellect and activities and engaged in virtuous acts.\n\nDhatu/Mind Signs of Dhatu Sara",
+          "metadata": {
+            "provenance_role": "translated_source",
+            "page_number": 66,
+            "pdf_page": 66,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "translator": "Not verified in supplied PDF metadata",
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.3541187047958374,
+          "cosine_similarity": 0.6458812952041626
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.33207476139068604,
+        "similarity": 0.667925238609314,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q08",
+      "query": "How are the five great elements, the mahabhutas, described?",
+      "expected_topic": "Mahabhutas / five elements",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p21-c1-b3ae2b6b0a",
+          "text": "21\n\nMahabhutas (5 Elements):\n\nDefinition of the mahabhutas (“great elements”):\n\nThere are five elements prthvi (earth), ap or soma (water), agni (fire), vayu (air), akasha (space) Su1#56\n\nRelation of the 5 Elements to the 5 Senses: Each of the 5 elements is a medium for one of the 5 senses. The sanskrit names for the 5 senses are: gandha (smell), rasa (taste), rupa (vision/ appearance), sparsa (touch) and sabda (sound). Su1#56 The 5 elements are related to the 5 senses as follows: Earth- smell Water- taste Fire- sight Air- touch Space- sound Su1#56",
+          "metadata": {
+            "edition": "Edited handbook edition; edition details require rights review",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "extraction_method": "digital",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 21,
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "page_number": 21,
+            "provenance_role": "translated_source",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only"
+          },
+          "distance": 0.14636766910552979,
+          "cosine_similarity": 0.8536323308944702
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p76-c4-05d3160823",
+          "text": "regate of 5 mahabhutas and consciousness as the 6th one is known as “Purusa” (person). Consciousness alone is also known as “Purusa”. Sa1#16\n\nAgain from division of constituents he is known as possessing 24 entities such as mind, 10 sense organs, 5 sense objects, and prakrti (matter) consisting of 8 entities (Ayakta, mahat, ahankara and 5 tanmatras). Sa1#17 Mind is defined as: the entity which , even on contact with self, sense organs and sense objects, is responsible for production or otherwise of knowledge by it’s attending or non-attending respectively. Subtleness and oneness are known as 2 qualities of mind.",
+          "metadata": {
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "pdf_page": 76,
+            "usage_scope": "development_only",
+            "page_number": 76,
+            "provenance_role": "translated_source",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.3406614661216736,
+          "cosine_similarity": 0.6593385338783264
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p15-c3-067690d49d",
+          "text": "pan. For those having exalted mind, qualities and actions the crops grew endowed with inconceivable rasa, virya, vipaka, prabhava, and other properties due to presence of all qualities in earth etc (the five elements?) In the beginning of Krtayuga. Vi3#24",
+          "metadata": {
+            "page_number": 15,
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "usage_scope": "development_only",
+            "pdf_page": 15,
+            "translator": "Not verified in supplied PDF metadata",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "provenance_role": "translated_source",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.34085148572921753,
+          "cosine_similarity": 0.6591485142707825
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p102-c4-7c3fe1699d",
+          "text": "iness in the sky resounded the 3 worlds. The pleasant wind began to blow, all corners blossomed with lustre and there were divine showers of flowers and water. Then the goddesses of Buddhi (intelligence), Siddhi (success), Smrti (memory), Medha (intellect)j, Dhrti (restraint), Kirti (fame), Ksama (forbearance) and Daya (kindness) entered into Agnivesha etc. Thus their compendiums approved by the great sages were established on strong footing for the welfare of the creatures. Su1#32-40\n\n10 Aspects which are covered by any good Ayurvedic text: body (anatomy) It’s functions (physiology) Causes (etiology) Disease (pathology) Operations (therapeutics) Objective to be achieved (health)",
+          "metadata": {
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "extraction_method": "digital",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "page_number": 102,
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "pdf_page": 102,
+            "provenance_role": "translated_source",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.3568481206893921,
+          "cosine_similarity": 0.6431518793106079
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p188-c3-de1e3b25d1",
+          "text": "immeasurable life-span. For those having exalted mind, qualities and actions the crops grew endowed with inconceivable rasa, virya, vipaka, prabhava, and other properties due to presence of all qualities in earth etc (the five elements?) In the beginning of Krtayuga. Vi3#24",
+          "metadata": {
+            "translator": "Not verified in supplied PDF metadata",
+            "chapter_reference": "II: “The Flowered Person”",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "pdf_page": 188,
+            "page_number": 188,
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "chapter_title": "“The Flowered Person”",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "chapter_number": "II",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "provenance_role": "translated_source",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "usage_scope": "development_only"
+          },
+          "distance": 0.35827136039733887,
+          "cosine_similarity": 0.6417286396026611
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.14636766910552979,
+        "similarity": 0.8536323308944702,
+        "abstained": false
+      }
+    },
+    {
+      "id": "q09",
+      "query": "What classical terminology is used for the sections and sutra references?",
+      "expected_topic": "Classical section terminology",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p10-c1-82d12617a5",
+          "text": "10 How To Use Sutra References\n\nA sutra is a verse or statement, like a sentence. Sutra means thread, because, like the surgical word to “suture”, a thread strings together a series of ideas. The Charaka Samhita is written in verse, to be chanted with a rhythm and meter. This aided the aspiring student in committing the sutras to memory. Unfortunately the rhyme and meter of the sutras are lost when translated into English, though we may catch their meaning. In order to aid scholars who wish to compare this edited version of the Charaka with sutras of the original, I have included sutra references. Each sentence, paragraph or chart will have a sutra reference below it, which indicates which sutras the information comes from. It looks like this:\n\nDefinition of Apasmara: It is defined as departure of memory associated with entering into unconsciousness and convulsions due to derangement of mind. Ci14#26-29\n\nA sutra reference is read like this:\n\nCi 14 #26-29\n\nsection chapter sutras",
+          "metadata": {
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "provenance_role": "translated_source",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "page_number": 10,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "pdf_page": 10
+          },
+          "distance": 0.22732007503509521,
+          "cosine_similarity": 0.7726799249649048
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p104-c4-075ecc75ad",
+          "text": "diseases, types of patients and treatment of diseases have been dealt with by the sage for the purpose of determining measures. -Su30#48-49\n\nTypes of person, dissimilar clan, appearance of fetus (lesser and greater chapters), analysis of person, analysis of body, enumeration of body parts, delivery and management of child– these 8 chapters have been dealt with by the sage, the son of Atri, in the Sarirasthana (section on anatomy). -Su30#50-52\n\n‘Indriyasthana’ (section on fatal signs and symptoms) contains 12 chapters , such as, relating to complexion and voice, flowering, palpatory, sense organs, prodroma, characters of diseases, distorted images, inverted images, discoloration, imminent death, minute spot and cow-dung-powder. -Su30#53-55",
+          "metadata": {
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "provenance_role": "translated_source",
+            "extraction_method": "digital",
+            "usage_scope": "development_only",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "pdf_page": 104,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "page_number": 104,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.3514535427093506,
+          "cosine_similarity": 0.6485464572906494
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p116-c3-c4e36ee42d",
+          "text": "The following is from Su30#69-85 Interrogation is the question on any subject from the treatise according to the accepted procedure. Interpretation of the interrogation is the rational solution of the same on the basis of the treatise. The word “Tantra” is derived from “tantrana” (pervasiveness and protection), “Sthana” from “arthapratistha” (containing the subject well) and the titles of adhyayas (chapters) are based on various topics. Thus according to query, the entire “Astaka” (8 topics) has been explained. In this way, the well-defined subjectmatter of the text has also been said in entirety. Su30#69-71 There are persons having partial and superficial informations whose unexpected flying up creates irritation like that of male bustard. Hence, in the beginning of the talk, one should always put the 8 topics with a view to testing the superiority or inferiority because there only the well-versed in scriptures can stand while those knowing a portion of it feel giddy by the very word of the entire treatise like the weak bustards by the sound of bow-string. Su30#72-74 Some animal in",
+          "metadata": {
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "usage_scope": "development_only",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "provenance_role": "translated_source",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "translator": "Not verified in supplied PDF metadata",
+            "page_number": 116,
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "extraction_method": "digital",
+            "pdf_page": 116,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c"
+          },
+          "distance": 0.3584247827529907,
+          "cosine_similarity": 0.6415752172470093
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p105-c2-9316203c66",
+          "text": "of the 3 vital organs, urustambha (stiffness of thighs), vatavyadhi, vatarakta, yonivyapat (disorders of female genital organs). -Su30#56-60\n\nNow I shall tell about the pharmaceuticals which are described under Kalpasthana (section on pharmaceuticals) in 12 chapters such as– (madana) phala, jimuta, iksvaku, dhamargava, vatsaka, krtavedhana, syama-trivrt, aragvadha, tilvaka, snuhi, saptalasamkhini and danti-dravanti. -Su30#61-64\n\nIn Siddhisthana (section on successful management) there are 12 chapters such as– management of evacuative measures, persons suitable and unsuitable for unctuous enema, management of the complications arisen due to improper application of enema, management of the complications of emesis and purgation, management of the complications of enema, various types of enematic formulations, management of the diseases of the 3 vital organs, application of enema, enema prepared with madanaphala, urethral and vaginal douches. “Thus the treatise is completed.” -Su30#65-67",
+          "metadata": {
+            "page_number": 105,
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "provenance_role": "translated_source",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "pdf_page": 105,
+            "translator": "Not verified in supplied PDF metadata"
+          },
+          "distance": 0.36401164531707764,
+          "cosine_similarity": 0.6359883546829224
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p104-c3-4db6ba5a4b",
+          "text": "of a physician. -Su30#36-43 6 quadruplets on drugs, the healthy, precepts, preparations, diseases and planning, the 7th one concerning food and drinks along with 2 concluding chapters in the end constitute the 30-chaptered, meaningful Slokasthana which is regarded as the auspicious head of the treatise. In this section, the quadruplets having deep significance have been compiled together. This section is called as Slokasthana because of it’s praise-worthy position and compilatory character.\n\n-Su30#44-46\n\nIn Nidanasthana (section on pathology and diagnosis) there are 8 chapters; 1 each on fever, internal hemorrhage, gulma, prameha, leprosy, phthisis, insanity and epilipsy. -Su30#47\n\nIn Vimanasthana (section on specific measures) 8 chapters one each on rasa, the 3 portions of the belly, epidemics, the 3 means of diagnosis of diseases, srotas (channels), classification of diseases, types of patients and treatment of diseases have been dealt with by the sage for the purpose of determining measures. -Su30#48-49",
+          "metadata": {
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "extraction_method": "digital",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "page_number": 104,
+            "usage_scope": "development_only",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "provenance_role": "translated_source",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "translator": "Not verified in supplied PDF metadata",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "pdf_page": 104
+          },
+          "distance": 0.3652212619781494,
+          "cosine_similarity": 0.6347787380218506
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.22732007503509521,
+        "similarity": 0.7726799249649048,
+        "abstained": false
+      }
+    },
+    {
+      "id": "q10",
+      "query": "How does the text describe food and digestion in relation to health?",
+      "expected_topic": "Food and digestion",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p179-c1-d58cebe70f",
+          "text": "179\n\nIn10#21\n\nPoor Digestion, etc. and Death",
+          "metadata": {
+            "provenance_role": "translated_source",
+            "chapter_title": "“The Flowered Person”",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "chapter_number": "II",
+            "pdf_page": 179,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "chapter_reference": "II: “The Flowered Person”",
+            "page_number": 179,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "usage_scope": "development_only",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.31785982847213745,
+          "cosine_similarity": 0.6821401715278625
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p228-c1-9e1043b91e",
+          "text": "228\n\nSu28#5\n\nBenefits of proper food: Food and drinks with desirable smell, taste and touch and having been taken according to prescribed method is IS SAID AS VITAL STRENGTH by the experts This was deduced on the basis of observing their results directly. The reason is because the condition of internal fire depends on food and drinks for it’s fuel. Food and drinks produce energy in mind, constitution of dhatus, strength, complexion and clarity of sense organs, if properly taken. Otherwise they become harmful. Su27#3\n\nOne taking wholesome food with controlled self lives healthy for 1036 nights (100 years) liked by the good men. Su27#348\n\nFood is the vital breath of living beings and that is why people rush to the food. Complexion, cheerfulness, good voice, life, imagination, happiness, contentment, corpulence, strength, intellect– all these are dependent on food. The worldly activities done for livelihood, the vedic ones for attainment of heaven and those for emancipation also depend on food. Su27#349-350",
+          "metadata": {
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "provenance_role": "translated_source",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "pdf_page": 228,
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "extraction_method": "digital",
+            "chapter_number": "II",
+            "chapter_reference": "II: “The Flowered Person”",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "page_number": 228,
+            "usage_scope": "development_only",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "chapter_title": "“The Flowered Person”",
+            "source_id": "charaka_vanloon_volume1_dev"
+          },
+          "distance": 0.3180878162384033,
+          "cosine_similarity": 0.6819121837615967
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p36-c3-e81bbd7676",
+          "text": "The waste products produced from the digestion of food “nourish” (generate) sweat, urine, feces as well as the 3 doshas, V, P and K. Su28#4\n\nAll V, P and K, in normal state, endow the person with unaffected sense organs, strength and complexion and happiness and also with a long life-span as virtue, wealth and enjoyment pursued properly endow the person with great well-being here and in the world hereafter; on the contrary, in abnormal state, they give rise to severe abnormalities as 3 seasons, when abnormal, produce harmful effects in the world particularly at the time of final destruction. Su12#13",
+          "metadata": {
+            "provenance_role": "translated_source",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "usage_scope": "development_only",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "page_number": 36,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "extraction_method": "digital",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "pdf_page": 36,
+            "translator": "Not verified in supplied PDF metadata",
+            "source_id": "charaka_vanloon_volume1_dev"
+          },
+          "distance": 0.3273426294326782,
+          "cosine_similarity": 0.6726573705673218
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p143-c2-fa2fc569d1",
+          "text": ") taste and 12) smell; 13) complications, 14- 16) aggravation, stasis and diminution, 17) consequences, 18) name and 19) associations. Vi4#6\n\nGather knowledge using the sense organs: Listen for: gurgling sounds of intestines, cracking sound in joints and finger nodes, characters of voice and other body sounds. Look for: color, shape, size, lustre, normal and abnormal characters of the body, etc. and other visual objects. Taste: should be inferred in this way: Know the taste of patient’s mouth by questioning him. Know abnormal tastes of his body by retreating lice, sweetness of his body by approaching flies; the doubt about internal hemorrhage as to whether it is pure blood or blood effected with pitta (bile?) Is removed by feeding the sample of blood to crow or dog; if they eat it, it is pure blood otherwise effected one. In this way other tastes in body parts may be inferred. Smell: normal or abnormal, in all body parts of the patient should be checked.",
+          "metadata": {
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "provenance_role": "translated_source",
+            "extraction_method": "digital",
+            "translator": "Not verified in supplied PDF metadata",
+            "usage_scope": "development_only",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "pdf_page": 143,
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 143,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.33697134256362915,
+          "cosine_similarity": 0.6630286574363708
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p525-c2-b919b66d12",
+          "text": "quisition and maintenance in respect of certain things. Therefore, the wise manage the pregnant lady with liked and wholesome things. Sa4#15\n\nNow I shall mention, in brief, the signs and symptoms of pregnancy and the state of 2 hearts. The management depends on knowledge which, in turn, depends on signs and symptoms, hence description of signs and symptoms is necessary; such as– disappearance of menstruation, excessive salivation, loss of desire for food, vomiting, anorexia, liking for sour things, inclination towards good or bad things, heaviness in body, malaise in eyes, appearance of milk in breasts, excessive blackness in lips and the areola of breasts, slight edema in feet, appearance of the line of small hairs, dilatation of vagina– these are the symptoms of pregnancy. Sa4#16",
+          "metadata": {
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "chapter_title": "“The Flowered Person”",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "chapter_number": "II",
+            "extraction_method": "digital",
+            "provenance_role": "translated_source",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "pdf_page": 525,
+            "translator": "Not verified in supplied PDF metadata",
+            "page_number": 525,
+            "chapter_reference": "II: “The Flowered Person”"
+          },
+          "distance": 0.3389208912849426,
+          "cosine_similarity": 0.6610791087150574
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.31785982847213745,
+        "similarity": 0.6821401715278625,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q11",
+      "query": "What does the editor say about how comments are marked in this edition?",
+      "expected_topic": "Editorial notation",
+      "expected_provenance": "editor_note",
+      "provenance_filter": "editor_note",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p8-c1-0698840086",
+          "text": "8\n\nthis book appears to be grammatically incorrect or incomplete. This is intentional and reflects the most accurate interpretation of the aphorisms that I felt I could make without sacrificing the original message. I may say that I have labored long and earnestly to form this text that it should become a firm and helpful guide to the student and doctor in daily use. I now send it forth in the confident hope that, the more it is put to the test of actual use, the more it will grow in the esteem of its possessor.That being said, this is a work-inprogress, and the editor earnestly requests Ayurvedic scholars, doctors and students to communicate any suggestions which may tend to improve this book for its second edition, which is currently under progress. Whatever can be done to make this book of greater service to the medical and scholastic institutions will be gladly undertaken.\n\nThe editor may be reached at: Gabriel Van Loon The Durham Center for Ayurveda 1200 Broad St, Suite 300 Durham N.C. 27705 USA\n\n(919) 286-2241 info@durhamayurveda.com www.durhamayurveda.com",
+          "metadata": {
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "extraction_method": "digital",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "usage_scope": "development_only",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "page_number": 8,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "provenance_role": "editor_note",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "pdf_page": 8
+          },
+          "distance": 0.3863428831100464,
+          "cosine_similarity": 0.6136571168899536
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p108-c3-5a3466bc13",
+          "text": "full of words and ideas, free from textual defects and adored [adorned] with 36 particular “Tantrayuktis” (devises of treatise). Si12#36-40\n\nThe devise of treatise are as follows: 1) scope 2) rational linking 3) extension of argument 4) import of words 5) partial statement 6) concise statement 7) detailed statement 8) filling of ellipsis 9) purpose 10) authoritative instruction 11) “adducement of reason” 12) extension of instruction 13) implication 14) conclusive statement 15) contextual restatement 16) categorical statement 17) non-categorical statement 18) exceptional statement 19) statement of contrariety 20) statement of objection 21) systematic interpretation 22) concession",
+          "metadata": {
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "pdf_page": 108,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "page_number": 108,
+            "extraction_method": "digital",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "provenance_role": "editor_note",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "translator": "Not verified in supplied PDF metadata",
+            "usage_scope": "development_only"
+          },
+          "distance": 0.4086719751358032,
+          "cosine_similarity": 0.5913280248641968
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p9-c4-65a503871f",
+          "text": "ts]. Items of particular interest will be marked in bold or with a * symbol. 7)When studying a statement, you can read it “backwards” to get twice as much information out of it. For example, in the statement “Antagonism of foods becomes inert due to: suitability, strong digestive power and young age” we can learn the direct statement, i.e. that suitability, strong digestive power and young age will all help us to avoid the problems of taking antagonistic foods. But we can also get insight about the nature of youth; there is something about youth that makes it particularly conducive to this effect. So, this one aphorism can tell us about not only antagonism of foods, but also about the characteristics of youth. All the statements in the Charaka can be used in this way to glean twice as much useful information. 8)Take the aphorism statements literally. You may be surprised by the wide yet specific application of what are apparently obvious aphorisms of the Charaka. 9)It is recommended that you learn most of the Charaka before applying it; there are many potentially dangerous procedures",
+          "metadata": {
+            "edition": "Edited handbook edition; edition details require rights review",
+            "extraction_method": "digital",
+            "page_number": 9,
+            "usage_scope": "development_only",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "provenance_role": "editor_note",
+            "pdf_page": 9,
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c"
+          },
+          "distance": 0.4332613945007324,
+          "cosine_similarity": 0.5667386054992676
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p2-c1-3e5cd73260",
+          "text": "2\n\nLegal Note from the editor: This book is not intended as a substitute for the medical advice of physicians. The reader should consult his or her physician in matters relating to his or her health, and particularly with respect to any procedures or techniques that may be described in this book.\n\n© Copyright by Gabriel Van Loon 2002, 2003\n\nWith generous permission –REQUESTED- from P.V. Sharma and Chaukhambha Orientalia Publishers.",
+          "metadata": {
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "provenance_role": "editor_note",
+            "extraction_method": "digital",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "usage_scope": "development_only",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "page_number": 2,
+            "pdf_page": 2,
+            "translator": "Not verified in supplied PDF metadata",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established"
+          },
+          "distance": 0.4443064332008362,
+          "cosine_similarity": 0.5556935667991638
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p363-c5-6de65d93a5",
+          "text": "el and milk administered to the patient requiring purgation. These are, in brief, the pharmaceutical forms of purgative drugs. These will be described in detail later on. Vi8#136\n\nthe P.K. sequence: [I believe the following sutras (the next couple pages) have all been entered already to other areas of the book, but I realized that it is important to have one spot (in general P.K. chapter) where the description of the whole P.K. sequence, in Charaka’s words, was laid down all together. So the following should be kept all together, without headings or added interpretation, etc., so that the student may get a sense of the total process of pancha karma.)] [Do mention that these sutras will be viewed again in more detail in their related chapters, such as purgation and emesis, enema, etc.]",
+          "metadata": {
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata",
+            "extraction_method": "digital",
+            "chapter_reference": "II: “The Flowered Person”",
+            "usage_scope": "development_only",
+            "page_number": 363,
+            "chapter_number": "II",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "pdf_page": 363,
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "chapter_title": "“The Flowered Person”",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "provenance_role": "editor_note"
+          },
+          "distance": 0.45902854204177856,
+          "cosine_similarity": 0.5409714579582214
+        }
+      ],
+      "actual_provenance": [
+        "editor_note",
+        "editor_note",
+        "editor_note",
+        "editor_note",
+        "editor_note"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.3863428831100464,
+        "similarity": 0.6136571168899536,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q12",
+      "query": "Where does the book place its section on fetal development?",
+      "expected_topic": "Fetal development contents",
+      "expected_provenance": "table",
+      "provenance_filter": "table",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p5-c1-343a6b770f",
+          "text": "5\n\nTable of Contents Section Page\n\nVolume I Preface 7\n\n1 Principles 11\n\n2 Study 101\n\n3 Diagnosis 129\n\n4 Healthy Living 199\n\n5 Treatment Procedures 291\n\n6 Fertility 469\n\n7 Formulation 537\n\nVolume II 8 Specific Diseases 629",
+          "metadata": {
+            "pdf_page": 5,
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "provenance_role": "table",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "page_number": 5,
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.3841872215270996,
+          "cosine_similarity": 0.6158127784729004
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p103-c2-7e57168cb9",
+          "text": "oshas etc. with reasoning and classification. Vi8#1574)Sarira -8 5)Indriya -12 6)Cikitsita - 30 7)Kalpa -12 8)Siddhi -12 This chart: Su30#33\n\n[ The following is/ will be in effect a Table of Contents for the original Charaka- just without any page numbers. It is a few pages long here, and was taken from Su30#3568.]: Index [Table of Contents/ List] of all chapters of the Charaka Samhita: located in Sutrasthana, chapter 30, sutras 34 through 68 (p.243-246) [Write this out into a chart.] [Insert/ duplicate into the student and Treatise section.]\n\nThe scope of the sections will be said in the respective sections. Now hear the 120 chapters with their titles and order: -Su30#35 The quadruplet on drugs consists of the chapter on longevity, apamarga seeds, aragvadha and 6 locations of evacuation",
+          "metadata": {
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "usage_scope": "development_only",
+            "page_number": 103,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "provenance_role": "table",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "pdf_page": 103,
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "extraction_method": "digital",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.41297489404678345,
+          "cosine_similarity": 0.5870251059532166
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p9-c3-a7d466633d",
+          "text": "ok at the table of contents for Section 8, Specific Diseases you will notice that there are a lot of diseases which are not listed. Further, there are disease categories which do not exist in Allopathic medicine. The outsider to Ayurveda may feel that this categorization in the Charaka Samhita is incomplete and antiquated. However, the further one studies and applies the diagnosis and treatment given in this classic text, the more one is impressed that this classification is complete, competent and in several cases is perhaps superior to the allopathic classification of diseases. 5)If you are a student, you may wish to read the chapters in order, or as your curriculum requires. One hint: studying at the beginning all of the table of content pages for each chapter is a good introduction to the breadth of Ayurveda, and will help you locate information when you need it in future. 6)Comments by the editor will be printed in italics or inside [brackets]. Items of particular interest will be marked in bold or with a * symbol. 7)When studying a statement, you can read it “backwards” to get",
+          "metadata": {
+            "translator": "Not verified in supplied PDF metadata",
+            "pdf_page": 9,
+            "page_number": 9,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "provenance_role": "table",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.41652506589889526,
+          "cosine_similarity": 0.5834749341011047
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p9-c2-169589c564",
+          "text": "1)Each Section has it’s own table of contents for fast and easy access. 2)If you are new to Ayurveda, reading just for fun, I recommend that you browse through the various table of contents and pick out points that pique your interest. You will be surprised by the array of interesting information. 3)If you are under the care of an Ayurvedic doctor, or want to follow an Ayurvedic lifestyle, you only need to read Section 4, Healthy Living. You may also wish to read Section 1, Principles. Some parts of this book are technical, so if you are new to Ayurveda an introductory book such as Dr. Vasant Lad’s “Ayurveda, the Science of SelfHealing” may also be helpful. 4)If you are a practitioner, you will find diagnosis and treatment by disease name listed in the table of contents for Section 8, Specific Diseases. Further detail on evaluation, principles and treatments can be located in the other sections as needed. I should mention here that if you look at the table of contents for Section 8, Specific Diseases you will notice that there are a lot of diseases which are not listed. Further,",
+          "metadata": {
+            "source_id": "charaka_vanloon_volume1_dev",
+            "pdf_page": 9,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "provenance_role": "table",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "usage_scope": "development_only",
+            "page_number": 9,
+            "edition": "Edited handbook edition; edition details require rights review",
+            "extraction_method": "digital",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.41957247257232666,
+          "cosine_similarity": 0.5804275274276733
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p105-c3-820fd9bdf9",
+          "text": "l organs, application of enema, enema prepared with madanaphala, urethral and vaginal douches. “Thus the treatise is completed.” -Su30#65-67\n\nThe scope [contents] of the [each] chapter will be said in the respective chapters under different sections. “Thus one should be able to tell about the scope [contents] of the respective subjects from the entire treatise” [i.e., from the above information, the reader should have a sense of the topics covered in the Charaka Samhita.] [or, i.e., the student should memorize the above lists and be able to recite them on command.] -Su30#68\n\n[ The above is a few pages long here, and was taken from Su30#35-68.]:\n\nNumber of Chapters in each Section of the Charaka: Sthanas (Sections) Number of Chapters in Each:\n\nSloka/ Sutra, Cikitsa 30",
+          "metadata": {
+            "page_number": 105,
+            "pdf_page": 105,
+            "provenance_role": "table",
+            "translator": "Not verified in supplied PDF metadata",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "usage_scope": "development_only"
+          },
+          "distance": 0.4203638434410095,
+          "cosine_similarity": 0.5796361565589905
+        }
+      ],
+      "actual_provenance": [
+        "table",
+        "table",
+        "table",
+        "table",
+        "table"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.3841872215270996,
+        "similarity": 0.6158127784729004,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q13",
+      "query": "What is Su1#41?",
+      "expected_topic": "Sutra reference marker",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p363-c1-79c1af7d12",
+          "text": "363\n\nSu2#9-10",
+          "metadata": {
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "page_number": 363,
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 363,
+            "chapter_reference": "II: “The Flowered Person”",
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "chapter_title": "“The Flowered Person”",
+            "translator": "Not verified in supplied PDF metadata",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "provenance_role": "translated_source",
+            "chapter_number": "II",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "edition": "Edited handbook edition; edition details require rights review"
+          },
+          "distance": 0.3187263011932373,
+          "cosine_similarity": 0.6812736988067627
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p177-c1-90a93436d3",
+          "text": "177\n\nIn9#15",
+          "metadata": {
+            "chapter_reference": "II: “The Flowered Person”",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "pdf_page": 177,
+            "page_number": 177,
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "provenance_role": "translated_source",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "usage_scope": "development_only",
+            "chapter_title": "“The Flowered Person”",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "chapter_number": "II"
+          },
+          "distance": 0.4076657295227051,
+          "cosine_similarity": 0.5923342704772949
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p569-c1-866df53a1c",
+          "text": "569\n\nKa1#13",
+          "metadata": {
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "usage_scope": "development_only",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "chapter_number": "II",
+            "pdf_page": 569,
+            "translator": "Not verified in supplied PDF metadata",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "chapter_reference": "II: “The Flowered Person”",
+            "chapter_title": "“The Flowered Person”",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "provenance_role": "translated_source",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "page_number": 569
+          },
+          "distance": 0.42107439041137695,
+          "cosine_similarity": 0.578925609588623
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p90-c1-151196c18f",
+          "text": "90\n\nare the means for disinclination? O Lord! Sa5#9",
+          "metadata": {
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata",
+            "pdf_page": 90,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "usage_scope": "development_only",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "provenance_role": "translated_source",
+            "page_number": 90,
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "extraction_method": "digital"
+          },
+          "distance": 0.46594393253326416,
+          "cosine_similarity": 0.5340560674667358
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p32-c1-67563c7b4e",
+          "text": "32\n\nSu26#65 Rasa: is known by it’s contact with the body (particularly tongue). -Su26#66 Vipaka is known by observing final effect on body. -Su26#66 Virya is known by the action exerted during the period from administration till excretion of the drug. Su26#66\n\nDetail on Virya/ Options for Virya/ Opinions on Virya: Some hold that there is 8-fold Virya: mrdu (soft), tiksna (sharp), guru (heavy), laghu (light), snigdha (unctuous), ruksa (rough), usna (hot) and sita (cold). Others believe that there are only 2 viryas: sita (cold) and usna (hot). Su26#64",
+          "metadata": {
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "extraction_method": "digital",
+            "pdf_page": 32,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "provenance_role": "translated_source",
+            "page_number": 32,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "translator": "Not verified in supplied PDF metadata"
+          },
+          "distance": 0.49109089374542236,
+          "cosine_similarity": 0.5089091062545776
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.3187263011932373,
+        "similarity": 0.6812736988067627,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q14",
+      "query": "What does the source say about quantum computing?",
+      "expected_topic": "Unsupported topic",
+      "expected_provenance": "translated_source",
+      "provenance_filter": "translated_source",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p116-c3-c4e36ee42d",
+          "text": "The following is from Su30#69-85 Interrogation is the question on any subject from the treatise according to the accepted procedure. Interpretation of the interrogation is the rational solution of the same on the basis of the treatise. The word “Tantra” is derived from “tantrana” (pervasiveness and protection), “Sthana” from “arthapratistha” (containing the subject well) and the titles of adhyayas (chapters) are based on various topics. Thus according to query, the entire “Astaka” (8 topics) has been explained. In this way, the well-defined subjectmatter of the text has also been said in entirety. Su30#69-71 There are persons having partial and superficial informations whose unexpected flying up creates irritation like that of male bustard. Hence, in the beginning of the talk, one should always put the 8 topics with a view to testing the superiority or inferiority because there only the well-versed in scriptures can stand while those knowing a portion of it feel giddy by the very word of the entire treatise like the weak bustards by the sound of bow-string. Su30#72-74 Some animal in",
+          "metadata": {
+            "usage_scope": "development_only",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "translator": "Not verified in supplied PDF metadata",
+            "page_number": 116,
+            "pdf_page": 116,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "provenance_role": "translated_source",
+            "extraction_method": "digital",
+            "edition": "Edited handbook edition; edition details require rights review"
+          },
+          "distance": 0.46494972705841064,
+          "cosine_similarity": 0.5350502729415894
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p123-c1-e04a9fade0",
+          "text": "123\n\nspeaking and contradiction; Such as- on the statement of ‘self is eternal’ somebody says ‘what is the reason’ . Vi8#52 Pratyanuyoga (counter-question)-- this is questioning the questions, such as on the above one may ask what is the reason of this question. Vi8#53",
+          "metadata": {
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "provenance_role": "translated_source",
+            "extraction_method": "digital",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "usage_scope": "development_only",
+            "page_number": 123,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "pdf_page": 123,
+            "translator": "Not verified in supplied PDF metadata",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c"
+          },
+          "distance": 0.46603429317474365,
+          "cosine_similarity": 0.5339657068252563
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p127-c1-010d9c362c",
+          "text": "127\n\ncan’t satisfy you if I explain them taking as grouped from another point of view when, in case, you want to be explained them as grouped from another point of view. Vi8#81 After considering the reply given by him, one should further say according to the method of contradiction. IN case, he speaks, properly one should not try to confuse him, rather he should examine him fully and sincerely. Vi8#82 There are 2 types of examination for those who have already acquired the (scriptural) knowledge- perceptive and inference. These 2 alongwith the authoritative instruction constitute the (means of) examination. This examination is of 2 types or of 3 types including authoritative instruction. Vi8#83",
+          "metadata": {
+            "pdf_page": 127,
+            "provenance_role": "translated_source",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "usage_scope": "development_only",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 127,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "extraction_method": "digital",
+            "translator": "Not verified in supplied PDF metadata",
+            "license_note": "Development-only inspection; copyright/permission not established"
+          },
+          "distance": 0.4801754951477051,
+          "cosine_similarity": 0.5198245048522949
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p109-c1-245937b425",
+          "text": "109\n\n23) explanation 24) doubt 25) retrospective reference 26) prospective reference 27) technical terms 28) deduction 29) collection 30) illustration 31) derivative definition 32) injunction 33) alternative statement 34) rational refutation 35) reaffirmation 36) source of origin Si12#41-44\n\nThese exist wholly in the treatise delivered briefly or in details. Nevertheless they are seen partially in the former. Si12#45\n\nAs sun is for the lotus and lamp for the house so are the devices of the treatise serving the purpose of amplification and enlightening. Si12#46\n\n“One whose mind is positioned even only in this treatise, acquires the other treatises as well quickly due to being conversant with reasoning.” Even studying various treatises a physician does not grasp their ideas without devices of treatise as one does not acquire wealth on loss of fortune. Si12#47-48",
+          "metadata": {
+            "page_number": 109,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "pdf_page": 109,
+            "translator": "Not verified in supplied PDF metadata",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "provenance_role": "translated_source",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf"
+          },
+          "distance": 0.4831557273864746,
+          "cosine_similarity": 0.5168442726135254
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p215-c1-fe43ad3de9",
+          "text": "215\n\ngovernment, etc. and other such works which are not discarded by noble persons and are promoters of livelihood -such works one should start doing. By working this way, one lives a long life without any dishonor. Su10#5\n\nON the other World (and how to give up Atheism and Embrace Reincarnation): The wise person should give up negativistic approach and also vacillation; the scope of perception is very limited, while the scope of the imperceptible is very large, but is known by scriptures, inference, and reasoning. “For the negativist whose consciousness has been injured by accepting the theory of chance, there is no examination, one to be examined, doer, cause, gods, sages, accomplished persons, action, result of action and also the self. This holding up of negativism is the worst among sinful.” Hence the learned should give up this view leading to bad path and should see all in reality with the lamp of knowledge provided by noble persons. Su11#6-16, Su11#26-32 ½",
+          "metadata": {
+            "source_id": "charaka_vanloon_volume1_dev",
+            "provenance_role": "translated_source",
+            "chapter_number": "II",
+            "pdf_page": 215,
+            "extraction_method": "digital",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "chapter_reference": "II: “The Flowered Person”",
+            "usage_scope": "development_only",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 215,
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "translator": "Not verified in supplied PDF metadata",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "chapter_title": "“The Flowered Person”",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.4835519790649414,
+          "cosine_similarity": 0.5164480209350586
+        }
+      ],
+      "actual_provenance": [
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source",
+        "translated_source"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.46494972705841064,
+        "similarity": 0.5350502729415894,
+        "abstained": true
+      }
+    },
+    {
+      "id": "q15",
+      "query": "Show editorial notes about moving material between sections.",
+      "expected_topic": "Editorial working annotations",
+      "expected_provenance": "editor_note",
+      "provenance_filter": "editor_note",
+      "hits": [
+        {
+          "rank": 1,
+          "id": "charaka_vanloon_volume1_dev-p8-c1-0698840086",
+          "text": "8\n\nthis book appears to be grammatically incorrect or incomplete. This is intentional and reflects the most accurate interpretation of the aphorisms that I felt I could make without sacrificing the original message. I may say that I have labored long and earnestly to form this text that it should become a firm and helpful guide to the student and doctor in daily use. I now send it forth in the confident hope that, the more it is put to the test of actual use, the more it will grow in the esteem of its possessor.That being said, this is a work-inprogress, and the editor earnestly requests Ayurvedic scholars, doctors and students to communicate any suggestions which may tend to improve this book for its second edition, which is currently under progress. Whatever can be done to make this book of greater service to the medical and scholastic institutions will be gladly undertaken.\n\nThe editor may be reached at: Gabriel Van Loon The Durham Center for Ayurveda 1200 Broad St, Suite 300 Durham N.C. 27705 USA\n\n(919) 286-2241 info@durhamayurveda.com www.durhamayurveda.com",
+          "metadata": {
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "extraction_method": "digital",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 8,
+            "source_id": "charaka_vanloon_volume1_dev",
+            "usage_scope": "development_only",
+            "provenance_role": "editor_note",
+            "pdf_page": 8,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I"
+          },
+          "distance": 0.39974445104599,
+          "cosine_similarity": 0.60025554895401
+        },
+        {
+          "rank": 2,
+          "id": "charaka_vanloon_volume1_dev-p9-c4-65a503871f",
+          "text": "ts]. Items of particular interest will be marked in bold or with a * symbol. 7)When studying a statement, you can read it “backwards” to get twice as much information out of it. For example, in the statement “Antagonism of foods becomes inert due to: suitability, strong digestive power and young age” we can learn the direct statement, i.e. that suitability, strong digestive power and young age will all help us to avoid the problems of taking antagonistic foods. But we can also get insight about the nature of youth; there is something about youth that makes it particularly conducive to this effect. So, this one aphorism can tell us about not only antagonism of foods, but also about the characteristics of youth. All the statements in the Charaka can be used in this way to glean twice as much useful information. 8)Take the aphorism statements literally. You may be surprised by the wide yet specific application of what are apparently obvious aphorisms of the Charaka. 9)It is recommended that you learn most of the Charaka before applying it; there are many potentially dangerous procedures",
+          "metadata": {
+            "provenance_role": "editor_note",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "extraction_method": "digital",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "page_number": 9,
+            "pdf_page": 9,
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "usage_scope": "development_only",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "translator": "Not verified in supplied PDF metadata"
+          },
+          "distance": 0.4138380289077759,
+          "cosine_similarity": 0.5861619710922241
+        },
+        {
+          "rank": 3,
+          "id": "charaka_vanloon_volume1_dev-p2-c1-3e5cd73260",
+          "text": "2\n\nLegal Note from the editor: This book is not intended as a substitute for the medical advice of physicians. The reader should consult his or her physician in matters relating to his or her health, and particularly with respect to any procedures or techniques that may be described in this book.\n\n© Copyright by Gabriel Van Loon 2002, 2003\n\nWith generous permission –REQUESTED- from P.V. Sharma and Chaukhambha Orientalia Publishers.",
+          "metadata": {
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "page_number": 2,
+            "pdf_page": 2,
+            "usage_scope": "development_only",
+            "extraction_method": "digital",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "provenance_role": "editor_note",
+            "source_id": "charaka_vanloon_volume1_dev"
+          },
+          "distance": 0.4142874479293823,
+          "cosine_similarity": 0.5857125520706177
+        },
+        {
+          "rank": 4,
+          "id": "charaka_vanloon_volume1_dev-p108-c3-5a3466bc13",
+          "text": "full of words and ideas, free from textual defects and adored [adorned] with 36 particular “Tantrayuktis” (devises of treatise). Si12#36-40\n\nThe devise of treatise are as follows: 1) scope 2) rational linking 3) extension of argument 4) import of words 5) partial statement 6) concise statement 7) detailed statement 8) filling of ellipsis 9) purpose 10) authoritative instruction 11) “adducement of reason” 12) extension of instruction 13) implication 14) conclusive statement 15) contextual restatement 16) categorical statement 17) non-categorical statement 18) exceptional statement 19) statement of contrariety 20) statement of objection 21) systematic interpretation 22) concession",
+          "metadata": {
+            "extraction_method": "digital",
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "page_number": 108,
+            "usage_scope": "development_only",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "pdf_page": 108,
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "translator": "Not verified in supplied PDF metadata",
+            "provenance_role": "editor_note"
+          },
+          "distance": 0.4228295683860779,
+          "cosine_similarity": 0.5771704316139221
+        },
+        {
+          "rank": 5,
+          "id": "charaka_vanloon_volume1_dev-p317-c1-2a97d831e4",
+          "text": "317\n\nBucket cooking utensils fuel churning stick leather cloth thread cotton wool, etc.\n\nStone slabs- for grinding [substitute a blender/food processer] (They should be of 3 grades- smooth, coarse and medium) Pestles (kept very clean) Sharp instruments (spades, scissors, etc.) Smoking pipe Pipe for enema and douches broom weighing scales measuring vat [for measuring out large volumes of liquids; like a giant measuring cup] Various accessories for unction, fomentations Su15#7 7) Furniture: Beds and Chairs should be provided with a flower vase and spittoon. The beds should be well-equipped with carpet [used like a mattress], bed sheet and pillow and also supporting pillows. The beds should be comfortable for lying down, sitting up, and for doing unction, fomentation, massage, pasting, showering, after-paste, emesis, purgation, non-unctuous and unctuous enema, head evacuation, urination and defecation. Su15#7 [Note: review all the activities listed here which were traditionally done on the bed!]",
+          "metadata": {
+            "source_sha256": "b2b22f11e22f4c4e4d62bdf72418320269324123b7ad481920aba8a61e58d23c",
+            "usage_scope": "development_only",
+            "provenance_role": "editor_note",
+            "license_note": "Development-only inspection; copyright/permission not established",
+            "translator": "Not verified in supplied PDF metadata",
+            "source_file": "Charaka-Samhita-Acharya-Charaka.pdf",
+            "extraction_method": "digital",
+            "pdf_page": 317,
+            "page_number": 317,
+            "book_name": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "source_id": "charaka_vanloon_volume1_dev",
+            "source_title": "Charaka Samhita - Handbook on Ayurveda Volume I",
+            "chapter_title": "“The Flowered Person”",
+            "edition": "Edited handbook edition; edition details require rights review",
+            "chapter_number": "II",
+            "source_identifier": "D:\\Downloads\\Charaka-Samhita-Acharya-Charaka.pdf",
+            "chapter_reference": "II: “The Flowered Person”"
+          },
+          "distance": 0.4307948350906372,
+          "cosine_similarity": 0.5692051649093628
+        }
+      ],
+      "actual_provenance": [
+        "editor_note",
+        "editor_note",
+        "editor_note",
+        "editor_note",
+        "editor_note"
+      ],
+      "provenance_matches": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "top_result": {
+        "distance": 0.39974445104599,
+        "similarity": 0.60025554895401,
+        "abstained": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "replace-with-approved-source-id",
+      "title": "Title as printed",
+      "translator": "Verified translator or empty only when genuinely not applicable",
+      "editor": "Verified editor or empty only when genuinely not applicable",
+      "publisher": "Verified publisher",
+      "edition": "Edition statement",
+      "publication_year": 2000,
+      "rights_status": "verified",
+      "permission_evidence_ref": "Path or external record identifier",
+      "review_status": "approved",
+      "source_sha256": "sha256-of-the-reviewed-source-when-bound"
+    }
+  ]
+}

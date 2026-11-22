@@ -1,0 +1,52 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-ayurform}
+      POSTGRES_USER: ${POSTGRES_USER:-ayurform}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ayurform -d ayurform"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    volumes: ["ayurform_pg:/var/lib/postgresql/data"]
+  api:
+    build: .
+    command: ["uvicorn", "ayurform_api:app", "--host", "0.0.0.0", "--port", "8002"]
+    ports: ["8002:8002"]
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-ayurform}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/${POSTGRES_DB:-ayurform}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes: ["./data:/app/data", "./vectorstore:/app/vectorstore"]
+  ayurform:
+    build: .
+    command: ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+    ports: ["8501:8501"]
+    environment:
+      AYURFORM_API_URL: http://api:8002
+      AYURSUTRA_AUTH_API_URL: http://auth:8000
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-ayurform}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/${POSTGRES_DB:-ayurform}
+    volumes:
+      - ./data:/app/data
+      - ./vectorstore:/app/vectorstore
+    depends_on:
+      api:
+        condition: service_started
+      auth:
+        condition: service_started
+      postgres:
+        condition: service_healthy
+  auth:
+    build: .
+    command: ["uvicorn", "auth_api:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports: ["8000:8000"]
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-ayurform}:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}@postgres:5432/${POSTGRES_DB:-ayurform}
+    depends_on:
+      postgres:
+        condition: service_healthy
+volumes:
+  ayurform_pg:

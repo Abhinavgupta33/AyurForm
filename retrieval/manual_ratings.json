@@ -1,0 +1,617 @@
+[
+  {
+    "query_id": "q01",
+    "query": "What are the three doshas and how are Vata, Pitta, and Kapha described?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p36-c4-d2a07d9dea",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p39-c1-244dd08818",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p196-c3-0d35aa2e35",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p88-c1-f56d5f007b",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p105-c2-9316203c66",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "query": "How is Vata characterized in the discussion of the doshas?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p39-c1-244dd08818",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p36-c4-d2a07d9dea",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p119-c3-79b6901fd2",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p524-c3-bd6cf09127",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p39-c3-bcc91d0fe4",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "query": "How is Pitta characterized in the discussion of the doshas?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p44-c2-89906f1668",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p46-c1-06e31415aa",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p36-c4-d2a07d9dea",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p39-c1-244dd08818",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p119-c3-79b6901fd2",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "query": "How is Kapha characterized in the discussion of the doshas?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p303-c3-0705912a2c",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p116-c3-c4e36ee42d",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p104-c3-4db6ba5a4b",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p104-c4-075ecc75ad",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p36-c4-d2a07d9dea",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "query": "What does the text say about Agni and digestion?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p305-c2-b6e37498d9",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p73-c1-b2afdcb501",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p122-c2-da18532a25",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p232-c2-bccf1e997e",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p179-c1-d58cebe70f",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "query": "What are the six tastes or rasa discussed in the text?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p140-c2-fe00f1471d",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p28-c4-432f805e81",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p15-c3-067690d49d",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p143-c2-fa2fc569d1",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p24-c1-db631d9713",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "query": "What are gunas and the pairs of qualities?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p110-c3-0b3dbfc3d6",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p102-c2-6ada9ac52f",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p19-c1-d9d1203a55",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p44-c2-89906f1668",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p66-c3-8be922b2de",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "query": "How are the five great elements, the mahabhutas, described?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p21-c1-b3ae2b6b0a",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p76-c4-05d3160823",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p15-c3-067690d49d",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p102-c4-7c3fe1699d",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p188-c3-de1e3b25d1",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "query": "What classical terminology is used for the sections and sutra references?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p10-c1-82d12617a5",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p104-c4-075ecc75ad",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p116-c3-c4e36ee42d",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p105-c2-9316203c66",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p104-c3-4db6ba5a4b",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "query": "How does the text describe food and digestion in relation to health?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p179-c1-d58cebe70f",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p228-c1-9e1043b91e",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p36-c3-e81bbd7676",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p143-c2-fa2fc569d1",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p525-c2-b919b66d12",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "query": "What does the editor say about how comments are marked in this edition?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p8-c1-0698840086",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p108-c3-5a3466bc13",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p9-c4-65a503871f",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p2-c1-3e5cd73260",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p363-c5-6de65d93a5",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "query": "Where does the book place its section on fetal development?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p5-c1-343a6b770f",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p103-c2-7e57168cb9",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p9-c3-a7d466633d",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p9-c2-169589c564",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p105-c3-820fd9bdf9",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "query": "What is Su1#41?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p363-c1-79c1af7d12",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p177-c1-90a93436d3",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p569-c1-866df53a1c",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p90-c1-151196c18f",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p32-c1-67563c7b4e",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "query": "What does the source say about quantum computing?",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p116-c3-c4e36ee42d",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p123-c1-e04a9fade0",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p127-c1-010d9c362c",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p109-c1-245937b425",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p215-c1-fe43ad3de9",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "query": "Show editorial notes about moving material between sections.",
+    "results": [
+      {
+        "rank": 1,
+        "chunk_id": "charaka_vanloon_volume1_dev-p8-c1-0698840086",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 2,
+        "chunk_id": "charaka_vanloon_volume1_dev-p9-c4-65a503871f",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 3,
+        "chunk_id": "charaka_vanloon_volume1_dev-p2-c1-3e5cd73260",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 4,
+        "chunk_id": "charaka_vanloon_volume1_dev-p108-c3-5a3466bc13",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      },
+      {
+        "rank": 5,
+        "chunk_id": "charaka_vanloon_volume1_dev-p317-c1-2a97d831e4",
+        "rating": null,
+        "rating_scale": "0=irrelevant, 1=partially relevant, 2=directly relevant",
+        "notes": ""
+      }
+    ]
+  }
+]
